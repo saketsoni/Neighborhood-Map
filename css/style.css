@@ -1,0 +1,74 @@
+* {
+    box-sizing:border-box;
+}
+
+body {
+    background-color: #000;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row nowrap;
+    flex-flow: row nowrap;
+}
+
+a:hover, a:active, a:focus {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    width: auto;
+    flex-grow: 1;
+}
+
+#MapArea {
+    height: 95vh;
+}
+
+.SearchResult {
+    width: 100%;
+    color: #DDD;
+    display: block;
+}
+
+#insta-pic {
+    padding: 5px;
+}
+
+#insta-pic img {
+    width: 100px;
+    height: 100px;
+}
+
+li {
+    margin-bottom:10px;
+}
+
+.menu-icon {
+    text-decoration: none;
+}
+
+#inputBox {
+    width: 100%;
+    height: 30px;
+    font-size: 20px
+}
+
+.SearchList {
+    background-color: #222;
+}
+
+nav {
+    width: 300px;
+    height: 100%;
+}
+
+.close-link {
+    width: 100%;
+    text-align: right;
+    display: block;
+    text-transform: uppercase;
+    color: #DDD;
+    font-weight: 100;
+    font-size: 20px;
+    text-decoration: underline;
+}
